@@ -135,13 +135,17 @@ dmypy.json
 *.jpg
 *.zip
 
+
+.h5
+artifacts/
+
 artifacts/prepare_callbacks/checkpoint_dir/model.h5
 artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2023-01-16-00-54-56/train/events.out.tfevents.1673810698.E-5CG23522DR.32284.0.v2
 artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2023-01-16-00-54-56/validation/events.out.tfevents.1673814518.E-5CG23522DR.32284.1.v2
 artifacts/training/model.h5
 artifacts/prepare_base_model/base_model_updated.h5
-artifacts/prepare_base_model/base_model_updated.h5
 artifacts/prepare_base_model/base_model.h5
-/artifacts/*
+artifacts/*
 artifacts/prepare_base_model/*
 *.h5
+artifacts/prepare_base_model/*.h5
