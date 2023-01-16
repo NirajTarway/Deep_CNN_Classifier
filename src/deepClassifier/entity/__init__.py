@@ -1,1 +1,1 @@
-from deepClassifier.entity.config_entity import DataInjectionConfig
+from deepClassifier.entity.config_entity import DataInjectionConfig, PrepareBaseModelConfig
